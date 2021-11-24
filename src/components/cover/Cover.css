@@ -21,3 +21,9 @@
     color:  white;
     font-size: 100px;
 }
+
+.cover-container > p {
+    margin-top:  8px;
+    color: white;
+    font-size: 32px;
+}
