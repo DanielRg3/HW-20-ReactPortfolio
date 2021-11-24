@@ -9,7 +9,7 @@ const Footer = () => {
         <p>Based in Toluca, Estado de Mexico, Mexico</p>
       </div>
       <div className="footer-contact">
-        <p>Email:</p><a href="mailto:danielruizgtz@gmail.com" class="footer-link">danielruizgtz@gmail.com</a>
+        <p>Email: <a href="mailto:danielruizgtz@gmail.com" class="footer-link">danielruizgtz@gmail.com</a></p>
         <p>Moblie: 52-811-553-8368</p>
         <br/>
         <h3>Contact me</h3>
