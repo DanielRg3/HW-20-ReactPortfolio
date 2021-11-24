@@ -16,3 +16,8 @@
     position: absolute;
     z-index: -1;
 }
+
+.cover-container > h1 {
+    color:  white;
+    font-size: 100px;
+}
