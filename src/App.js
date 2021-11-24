@@ -14,9 +14,9 @@ function App() {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   }, [scrollHeight]);
-  
+
   return <div className="App">
-    <Navbar />
+    <Navbar isScrolling={scrollHeight} />
     <Cover />
   </div>;
 }
