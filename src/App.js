@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import About from './components/about/About';
 import Slider from './components/slider/Slider';
 import Info from "./components/info/Info";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -18,13 +19,16 @@ function App() {
     window.addEventListener("scroll", handleScroll);
   }, [scrollHeight]);
 
-  return <div className="App">
-    <Navbar isScrolling={scrollHeight} />
-    <Cover />
-    <About />
-    <Slider />
-    <Info />
-  </div>;
+  return (
+    <div className="App">
+      <Navbar isScrolling={scrollHeight} />
+      <Cover />
+      <About />
+      <Slider />
+      <Info />
+      <Footer />
+    </div>;
+  );
 }
 
 export default App;
