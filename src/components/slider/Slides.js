@@ -21,7 +21,7 @@ const slidesInfo = [
       "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
     alt: "Project 3",
     desc: "Project 3: Budget App",
-    URL: "https://danielrg3.github.io/DanielsPortfolioHW2",
+    URL: "https://frozen-ridge-69547.herokuapp.com/",
   },
 ];
 
