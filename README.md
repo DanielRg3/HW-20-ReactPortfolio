@@ -6,6 +6,7 @@ In order to use the latest technologies, in this proect we need to recreate our 
 ## Terminal
 - npx create-react-app
 - npm start
+- npm install gh-pages --save-sev (for github pages)
 
 ## Content
 - React app packages
